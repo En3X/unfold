@@ -1,0 +1,49 @@
+@import url(./font.css);
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); */
+body,
+html {
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #17a2b8;
+  --success: #28a745;
+  --warning: #8637ee;
+  --danger: #dc3545;
+  --border: #999999;
+}
+
+
+.row{
+  display: flex;
+  column-gap: 3%;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+
+
+#toast{
+  background-color: rgba(0, 0, 0, 0.76);
+  position: fixed;
+  color: white;
+  border-radius: 10px;
+  width: fit-content;
+  text-align: center;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  display: none;
+}
+
+.alert-danger{
+  color: #ffffff;
+  padding: 10px;
+  background-color: var(--danger);
+}

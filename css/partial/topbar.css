@@ -1,0 +1,34 @@
+nav{
+    position: absolute;
+    
+    width: 100%;
+}
+nav>.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.searchSection{
+    color: #333;
+    background-color: #F6FAFE;
+    padding: 10px 20px;
+    display: flex;
+    place-content: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.searchSection>input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.logoSection{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.notificon{
+    color: #FF9901;
+    font-size: 25px;
+    cursor: pointer;
+}
