@@ -1,0 +1,97 @@
+.postsSection{
+    margin-top: 120px;
+    padding: 10px;
+    /* margin-left: 40px; */
+    overflow-y: scroll;
+    height: 80vh;
+}
+.postsSection::-webkit-scrollbar {
+    width: 6px; 
+}
+.postsSection::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.postsSection::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+    opacity: 0.2;
+}
+
+.postsSection>.heading{
+    font-size: 25px;
+}
+.posts{
+    margin-top: 30px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.postCard{
+    width: 255px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+}
+.userDetail{
+    display: flex;
+    /* place-content: calc(); */
+}
+
+.userImg{
+    width: 60px;
+    height: 60px;
+}
+.userImg>img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.headingtext{
+    margin-left: 20px;
+    display: grid;
+    place-content: center;
+}
+
+.mainpost{
+    margin-top: 20px;
+}
+.mainpost>.heading{
+    font-size: large;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ 
+}
+.posttext{
+    font-size: 14px;
+    margin-top: 10px;
+    overflow: hidden;
+    /* text-align: justify; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.controlsSection{
+    position: relative;
+    bottom: 0;
+    font-size: 25px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numLikes{
+    font-size: 16px;
+}
+.icongroup{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    place-content: center;
+}

@@ -1,0 +1,22 @@
+
+.sidebar{
+    display: grid;
+    place-content: center;
+    width: 40px;
+    height: 100vh;
+    position: sticky;
+    row-gap: 10%;
+    top: 0;
+    padding: 0px 10px;
+    font-size: 30px;
+    border: none;
+    border-right: 1px solig #ccc;
+}
+.icon-group{
+    cursor: pointer;
+}
+.firsticon{color: rgb(238,55,84)}
+.secondicon{color: rgb(10,224,245)}
+.thirdicon{color: rgb(243,208,25)}
+.forthicon{color: rgb(129,117,255)}
+.fifthicon{color: #FEAAA1}

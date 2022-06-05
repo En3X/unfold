@@ -1,0 +1,90 @@
+@font-face {
+  font-family: mbold;
+  src: url("../fonts/montserrat_bold.ttf");
+}
+@font-face {
+  font-family: mregular;
+  src: url("../fonts/montserrat_regular.ttf");
+}
+@font-face {
+  font-family: mitalic;
+  src: url("../fonts/montserrat_italic.ttf");
+}
+@font-face {
+  font-family: mmedium;
+  src: url("../fonts/montserrat_medium.ttf");
+}
+@font-face {
+  font-family: mlight;
+  src: url("../fonts/montserrat-light.ttf");
+}
+@font-face {
+  font-family: mthin;
+  src: url("../fonts/montserrat-thin.ttf");
+}
+
+.mbold {
+  font-family: mbold;
+}
+.mregular {
+  font-family: mregular;
+}
+.mitalic {
+  font-family: mitalic;
+}
+.mmedium {
+  font-family: mmedium;
+}
+.mlight {
+  font-family: mlight;
+}
+.mthin {
+  font-family: mthin;
+}
+
+/* Karla */
+@font-face {
+  font-family: karlabold;
+  src: url("../fonts/karla/Karla-Bold.ttf");
+}
+@font-face {
+  font-family: karlaregular;
+  src: url("../fonts/karla/Karla-Regular.ttf");
+}
+
+@font-face {
+  font-family: karlamedium;
+  src: url("../fonts/karla/Karla-Medium.ttf");
+}
+@font-face {
+  font-family: karlalight;
+  src: url("../fonts/karla/Karla-Light.ttf");
+}
+@font-face {
+  font-family: karlasb;
+  src: url("../fonts/karla/Karla-SemiBold.ttf");
+}
+.kbold {
+  font-family: karlabold;
+}
+.kregular {
+  font-family: karlaregular;
+}
+.ksemibold {
+  font-family: karlasb;
+}
+.kmedium {
+  font-family: karlamedium;
+}
+.klight {
+  font-family: karlalight;
+}
+
+@font-face {
+  font-family: logofont;
+  src: url("../fonts/logo.otf");
+}
+
+.logofont{
+  font-family: logofont;
+}

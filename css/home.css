@@ -1,0 +1,10 @@
+@import url('./control.css');
+@import url('./partial/sidebar.css');
+@import url('./partial/topbar.css');
+@import url('./partial/selfProfile.css');
+@import url('./partial/posts.css');
+@import url('./partial/fullpost.css');
+
+body{
+    overflow: hidden;
+}
